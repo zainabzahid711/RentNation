@@ -1,0 +1,12 @@
+.cardContainer {
+  padding: 50px 80px 75px;
+}
+
+.mainHeading {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.cardWrapper {
+  padding: 25px 0px 75px;
+}
