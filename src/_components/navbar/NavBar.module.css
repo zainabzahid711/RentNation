@@ -1,0 +1,20 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 80px 25px;
+  color: white;
+}
+
+.logo {
+  width: 150px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menuItem {
+  margin-right: 40px;
+}
