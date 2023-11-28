@@ -9,4 +9,25 @@
 
 .cardWrapper {
   padding: 25px 0px 75px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px 20px;
+}
+
+.seeMore {
+  text-align: center;
+  width: 100%;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+@media (max-width:1440px) {
+
+  .cardContainer {
+    padding: 50px 40px 75px;
+  }
+
+  .cardWrapper {
+    gap: 30px 10px;
+  }
 }
