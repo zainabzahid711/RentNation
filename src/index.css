@@ -12,5 +12,18 @@ body {
 button,
 a {
   cursor: pointer;
+}
 
+ul li {
+  list-style: none;
+}
+
+li {
+  padding-bottom: 30px;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+ul li a {
+  padding: 40px;
 }

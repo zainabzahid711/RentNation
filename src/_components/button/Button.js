@@ -1,8 +1,51 @@
 import React from "react";
-import styles from './Button.module.css'
+import styles from "./Button.module.css";
 
-const Button = () =>{
-  return <button className={styles.button}> LOGIN / SIGN UP </button> 
-}
+// const Button = ({
+//   title,
+//   background,
+//   padding,
+//   color,
+//   border,
+//   borderRadius,
+// }) => {
+//   const style = {
+//     background: background,
+//     padding: padding,
+//     color: color,
+//     border: border,
+//     borderRadius: borderRadius,
+//   };
 
-export default Button
+//   return (
+//     <button className={styles.button} style={style}>
+//       {" "}
+//       {title}{" "}
+//     </button>
+//   );
+// };
+
+const Button = ({
+  title,
+  background,
+  padding,
+  color,
+  border,
+  borderRadius,
+}) => {
+  const style = {
+    background: background,
+    padding: padding,
+    color: color,
+    border: border,
+    borderRadius: borderRadius,
+  };
+  return (
+    <button className={styles.button} style={style}>
+      {" "}
+      {title}{" "}
+    </button>
+  );
+};
+
+export default Button;
