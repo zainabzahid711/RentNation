@@ -8,7 +8,12 @@ const CardContainer = () =>{
        <h1 className={styles.mainHeading}> Featured Golf Cart for Rent </h1>
        <div className={styles.cardWrapper}>
         <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+
        </div>
+       <p className={styles.seeMore} > See More </p>
     </div>
   )
 }
