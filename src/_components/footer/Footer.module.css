@@ -1,0 +1,41 @@
+.Footer {
+  background-color: #282828;
+  max-width: 100%;
+  width: 1440px;
+  max-height: 100%;
+  height: 350px;
+  padding: 40px 80px 76px;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footerPara {
+  font-size: 14px;
+  margin-top: 18px;
+  color: #fff;
+}
+
+.listHeading {
+  color: #F18805;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.footerItems {
+  display: flex;
+}
+
+.socialLogos {
+  padding-left: 35px;
+}
+
+.lastText {
+  padding: 42px 0px 10px;
+  text-align: center;
+  color: #8B8B8B;
+  font-size: 12px;
+  font-weight: 300;
+}
