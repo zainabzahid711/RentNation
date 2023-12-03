@@ -8,3 +8,19 @@
   padding: 12px 10px;
   border: none;
 }
+
+@media(max-width: 768px) {
+  .button {
+    padding: 10px 5px;
+    font-size: 12px;
+    width: 120px;
+  }
+}
+
+@media(max-width: 500px) {
+  .button {
+    padding: 7px 0;
+    font-size: 12px;
+    width: 110px;
+  }
+}

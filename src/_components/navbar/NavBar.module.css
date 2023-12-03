@@ -17,4 +17,49 @@
 
 .menuItem {
   margin-right: 40px;
+  color: #FFF;
+
+  font-size: 14px;
+  font-weight: 400;
+}
+
+@media(max-width: 992px) {
+
+  .menuItem {
+    margin-right: 30px;
+    font-size: 12px;
+  }
+
+}
+
+@media(max-width: 768px) {
+  .navBar {
+    padding: 40px 30px 25px;
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+  .menuItem {
+    margin-right: 15px;
+    font-size: 11px;
+  }
+
+}
+
+@media(max-width: 500px) {
+  .navBar {
+    padding: 40px 40px 25px;
+  }
+
+  .logo {
+    width: 80px;
+  }
+
+  .menuItem {
+    margin-right: 15px;
+    font-size: 8px;
+  }
+
 }

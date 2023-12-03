@@ -24,6 +24,10 @@ li {
   color: #FFFFFF;
 }
 
-ul li a {
-  padding: 40px;
+
+@media (max-width: 500px) {
+  ul {
+    display: flex;
+    flex-direction: column;
+  }
 }
