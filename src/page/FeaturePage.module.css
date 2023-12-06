@@ -1,0 +1,9 @@
+.parent {
+  position: relative;
+}
+
+.bgImage {
+  position: absolute;
+  bottom: 130px;
+  z-index: -1;
+}
