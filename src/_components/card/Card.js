@@ -7,7 +7,7 @@ import locationIcon from "../../_assets/svg/location.svg";
 import shareIcon from "../../_assets/svg/share icon.svg";
 import eyeIcon from "../../_assets/svg/eye icon.svg";
 
-const Card = () => {
+const Card = ({ img, price, location, heading }) => {
   return (
     <div className={styles.card}>
       <div className={styles.btn}>
@@ -19,9 +19,9 @@ const Card = () => {
         />
       </div>
       <img className={styles.heartLogo} src={heartLogo} alt="heart-logo" />
-      <img className={styles.mainImage} src={mainImage} alt="bikes-pic" />
+      <img className={styles.mainImage} src={img} alt="bikes-pic" />
       <div className={styles.textDiv}>
-        <h3 className={styles.heading}> Golf Cart </h3>
+        <h3 className={styles.heading}> {heading} </h3>
         <p className={styles.paragraph}>
           Lorem ipsum dolor sit amet consectetur. Consequat tincidunt
         </p>
@@ -32,10 +32,10 @@ const Card = () => {
               src={locationIcon}
               alt="heart-logo"
             />
-            <span className={styles.locationSpan}> Alibey island </span>
+            <span className={styles.locationSpan}> {location} </span>
           </div>
           <div className={styles.dollerDiv}>
-            <span> $50/day </span>
+            <span> ${price}/day </span>
           </div>
         </div>
         <div className={styles.lowerDiv}>
