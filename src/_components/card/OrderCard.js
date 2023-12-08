@@ -1,5 +1,4 @@
 import React from "react";
-import Mainimg from "../../_assets/png/bikes.png";
 import PeopleIcon from "../../_assets/svg/peopleicon.svg";
 import LimitIcon from "../../_assets/svg/limiticon.svg";
 import LocationIcon from "../../_assets/svg/location-yellow.svg";
