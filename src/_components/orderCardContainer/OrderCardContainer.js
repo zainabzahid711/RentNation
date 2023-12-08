@@ -1,7 +1,15 @@
 import React from "react";
 import styles from "./OrderCardContainer.module.css";
 import OrderCard from "../card/OrderCard";
+// import mainbikes from '../../_assets/png/bikes.png';
 
+// //array passing
+
+// const OrdercardArry = [
+//   {
+//     image: mainbikes,
+//   }
+// ]
 const OrderCardContainer = () => {
   return (
     <div className={styles.cardContainer}>

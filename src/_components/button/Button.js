@@ -42,8 +42,7 @@ const Button = ({
   };
   return (
     <button className={styles.button} style={style}>
-      {" "}
-      {title}{" "}
+      {title}
     </button>
   );
 };

@@ -8,15 +8,15 @@ import EyeIcon from "../../_assets/svg/eye.svg";
 import styles from "./OrderCard.module.css";
 import Button from "../button/Button";
 
-const OrderCard = () => {
+const OrderCard = ({ img, heading, people, limits, location, views }) => {
   return (
     <div className={styles.OrderCard}>
       <div className={styles.cardImage}>
-        <img className={styles.mainimg} src={Mainimg} alt="mainbikeImage"></img>
+        <img className={styles.mainimg} src={img} alt="mainbikeImage"></img>
       </div>
       <div className={styles.cardText}>
         <div className={styles.cardLeftText}>
-          <h2 className={styles.cardHeading}>Midsize suv</h2>
+          <h2 className={styles.cardHeading}>{heading}</h2>
           <div className={styles.cardLogos}>
             <div className={styles.logosSubdiv}>
               <img
@@ -24,7 +24,7 @@ const OrderCard = () => {
                 src={PeopleIcon}
                 alt="people icon"
               ></img>
-              <span className={styles.subheading}> 5 People </span>
+              <span className={styles.subheading}> {people} </span>
             </div>
             <div className={styles.logosSubdiv}>
               <img
@@ -32,20 +32,17 @@ const OrderCard = () => {
                 src={LimitIcon}
                 alt="limit icon"
               ></img>
-              <span className={styles.cardspan}> Unlimited Milage </span>
+              <span className={styles.cardspan}> {limits} </span>
             </div>
           </div>
           <div className={styles.locationDiv}>
             <div className={styles.locationSub}>
               <img className={styles.icon} src={LocationIcon}></img>
-              <span>Alibey island</span>
+              <span>{location}</span>
             </div>
-            {/* <div> */}
             <span className={styles.spanText}>
-              {" "}
               Close to abc and abc and abc
             </span>
-            {/* </div> */}
           </div>
           <div className={styles.shareDiv}>
             <Button
@@ -59,7 +56,7 @@ const OrderCard = () => {
             <img className={styles.icon} src={ShareIcon}></img>
             <div className={styles.eyeDiv}>
               <img className={styles.icon} src={EyeIcon}></img>
-              <span className={styles.eyeSpan}>569</span>
+              <span className={styles.eyeSpan}>{views}</span>
             </div>
           </div>
         </div>
