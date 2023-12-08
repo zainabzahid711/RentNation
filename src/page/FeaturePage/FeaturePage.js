@@ -1,8 +1,8 @@
 import React from "react";
-import NavBar from "../_components/navbar/NavBar";
-import CardContainer from "../_components/cardContainer/CardContainer";
-import Footer from "../_components/footer/Footer";
-import BgImage from "../_assets/png/bg-img.png";
+import NavBar from "../../_components/navbar/NavBar";
+import CardContainer from "../../_components/cardContainer/CardContainer";
+import Footer from "../../_components/footer/Footer";
+import BgImage from "../../_assets/png/bg-img.png";
 import styles from "./FeaturePage.module.css";
 
 const FeaturePage = () => {

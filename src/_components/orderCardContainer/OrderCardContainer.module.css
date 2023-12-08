@@ -1,0 +1,17 @@
+.cardContainer {
+  padding: 80px 190px;
+}
+
+.cardBooking {
+  margin-top: 40px;
+  margin-bottom: 19px;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.clordSpan {
+  color: #FFAE1B;
+}
