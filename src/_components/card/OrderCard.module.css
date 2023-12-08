@@ -1,0 +1,86 @@
+.OrderCard {
+  background-color: #121212;
+  max-width: 100%;
+  display: flex;
+  border-radius: 10px;
+}
+
+.cardText {
+  padding: 10px 20px;
+  margin-top: 21px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.mainimg {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.cardRight {
+  padding-right: 46px;
+}
+
+.cardHeading {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.cardLogos {
+  margin-top: 24px;
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.logosSubdiv {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.subheading {
+  font-size: 16px;
+}
+
+.icon {
+  width: 24px;
+}
+
+.locationDiv {
+  gap: 25px;
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.locationSub {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.spanText {
+  color: #949494;
+
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.shareDiv {
+  display: flex;
+  gap: 15px;
+}
+
+.eyeDiv {
+  display: flex;
+  gap: 5px;
+}
+
+.eyeSpan {
+  color: #6D737A;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 8px;
+}
