@@ -63,7 +63,8 @@
 
 .spanText {
   color: #949494;
-
+  align-items: center;
+  display: flex;
   font-size: 13px;
   font-weight: 400;
 }
