@@ -11,7 +11,7 @@
 
 .Bgright {
   position: absolute;
-  bottom: 0px;
+  top: 820px;
   right: 0px;
   z-index: -1;
 }
