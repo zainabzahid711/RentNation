@@ -8,5 +8,16 @@ body {
 }
 
 .mainHome {
-  position: relative;
+  /* position: relative; */
 }
+
+/* 
+.mainHome::before {
+  content: "";
+  display: block; 
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+} */
