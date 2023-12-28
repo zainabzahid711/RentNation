@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Button.module.css";
+import searchIcon from "../../_assets/svg/search-Icon.svg";
 
 // const Button = ({
 //   title,
@@ -32,6 +33,7 @@ const Button = ({
   color,
   border,
   borderRadius,
+  icon,
 }) => {
   const style = {
     background: background,
@@ -39,9 +41,11 @@ const Button = ({
     color: color,
     border: border,
     borderRadius: borderRadius,
+    // icon: anyIcon,
   };
   return (
     <button className={styles.button} style={style}>
+      {icon && <img src={icon} alt="icon" className={styles.btnIcon} />}
       {title}
     </button>
   );
