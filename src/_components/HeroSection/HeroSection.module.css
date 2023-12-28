@@ -1,0 +1,121 @@
+.heroContainer {
+  /* position: absolute; */
+  min-height: 100%;
+  height: 2rem;
+}
+
+
+.heroheading {
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 72px;
+}
+
+.herosubHeading {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 72px;
+}
+
+.heroPara {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+
+.BackgroundImg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0.6;
+  background-color: rgba(0, 0, 0, .95);
+}
+
+
+.inputContainer {
+  display: flex;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.locationIcon {
+  opacity: .6;
+}
+
+.locationSelect {
+  width: 90px;
+  background-color: transparent;
+  font-size: 14px;
+  border: none;
+  color: #fff;
+}
+
+.locationSelect option {
+  color: #000;
+}
+
+.locationDrop {
+  border: none;
+  display: flex;
+  align-items: center;
+  padding: 13px 16px 13px 13px;
+  background-color: rgba(18, 18, 18, 0.48);
+  border-radius: 4px;
+  /* background: transparent; */
+}
+
+.heroInput {
+  display: flex;
+  align-items: center;
+  background-color: rgba(18, 18, 18, 0.20);
+  border: none;
+  padding: 16px 250px 15px 26px;
+  backdrop-filter: blur(4px);
+}
+
+.heroInput::placeholder {
+  padding: 16px 250px 15px 0px;
+  color: #C8C8C8;
+}
+
+/* 
+.customDropdown {
+  position: relative;
+} */
+
+.locationSelect .item {
+  color: white;
+  background-color: wheat;
+  /* Set white text color for dropdown items */
+}
+
+/* Additional styles for better visibility */
+.locationSelect a:hover,
+.locationSelect a:focus {
+  /* background-color: #007bff; */
+  /* Add a background color on hover/focus for better visibility */
+  color: white;
+}
