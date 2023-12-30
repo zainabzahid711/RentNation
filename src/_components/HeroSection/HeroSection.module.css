@@ -108,8 +108,7 @@
 /* Additional styles for better visibility */
 .locationSelect a:hover,
 .locationSelect a:focus {
-  /* background-color: #007bff; */
-  /* Add a background color on hover/focus for better visibility */
+  outline: none;
   color: white;
 }
 
