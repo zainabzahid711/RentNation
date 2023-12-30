@@ -12,33 +12,32 @@ import dolphinOcean from "../../_assets/png/dolphinsOnOcean.png";
 import boating from "../../_assets/png/boatingg.png";
 import pedalBoat from "../../_assets/png/pedalBoating.png";
 import styles from "./HomeCard.module.css";
-// import { Card } from "react-bootstrap";
 import Card from "../card/Card";
 
 const cardsVariety = [
   {
     img: bikesPic,
-    price: "495",
+    price: "50",
     location: "Alibey Island",
-    heading: "Golf Card",
+    heading: "Golf Cart",
   },
   {
     img: poloImage,
-    price: "495",
-    location: "Alibey Island",
-    heading: "Golf Card",
+    price: "50",
+    location: "Akdamar Island",
+    heading: "Golf Cart",
   },
   {
     img: poloCarsImage,
-    price: "492",
-    location: "Alibey Island",
-    heading: "Golf Card",
+    price: "50",
+    location: "Tenedos",
+    heading: "Golf Cart",
   },
   {
     img: bikesPic,
-    price: "495",
+    price: "50",
     location: "Alibey Island",
-    heading: "Golf Card",
+    heading: "Golf Cart",
   },
 ];
 
@@ -46,26 +45,26 @@ const beechArray = [
   {
     img: beachChairs,
     price: "60",
-    location: "Aliby Beech",
-    heading: "Beach Card",
+    location: "Heybeliada",
+    heading: "Dreamy Beaches",
   },
   {
     img: beechRealxing,
     price: "60",
-    location: "Aliby Beech",
-    heading: "Beach Card",
+    location: "Akdamar Island",
+    heading: "Dreamy Beaches",
   },
   {
     img: beechPeople,
     price: "60",
-    location: "Aliby Beech island",
-    heading: "Beach Card",
+    location: "Tenedos",
+    heading: "Dreamy Beaches",
   },
   {
     img: beechBridge,
     price: "60",
-    location: "Aliby Beech ",
-    heading: "Beach Card",
+    location: "Aliby Island ",
+    heading: "Dreamy Beaches",
   },
 ];
 
@@ -73,46 +72,48 @@ const kayaksArray = [
   {
     img: surfingOnOcean,
     price: "80",
-    location: "Kayaks Ocean",
-    heading: "Kayaks Card",
+    location: "Akdamar Island",
+    heading: "Kayaks",
   },
   {
     img: dolphinOcean,
     price: "80",
-    location: "Kayaks Ocean",
-    heading: "Kayaks Card",
+    location: "Buyukada",
+    heading: "Kayaks",
   },
   {
     img: boating,
     price: "80",
-    location: "Kayaks Ocean",
-    heading: "Kayaks Card",
+    location: "Akdamar Island",
+    heading: "Kayaks",
   },
   {
     img: pedalBoat,
     price: "80",
-    location: "Kayaks Ocean",
-    heading: "Kayaks Card",
+    location: "Buyukada",
+    heading: "Kayaks",
   },
 ];
 
 const HomeCard = () => {
   return (
     <div className={styles.HomeCard}>
-      <h1> Featured Golf Cart for rent</h1>
-      <div className={styles.cardWrapping}>
-        {cardsVariety.map((obj) => (
-          <Card
-            className={styles.CardinHome}
-            img={obj.img}
-            price={obj.price}
-            location={obj.location}
-            heading={obj.heading}
-          />
-        ))}
+      <div className={styles.HomeCardContent}>
+        <h1> Featured Golf Cart for rent</h1>
+        <div className={styles.cardWrapping}>
+          {cardsVariety.map((obj) => (
+            <Card
+              className={styles.CardinHome}
+              img={obj.img}
+              price={obj.price}
+              location={obj.location}
+              heading={obj.heading}
+            />
+          ))}
+        </div>
       </div>
 
-      <div className={styles.beeach}>
+      <div className={styles.HomeCardContent}>
         <h1>Featured beache Supplies for Rent</h1>
         <div className={styles.cardWrapping}>
           {beechArray.map((objBeech) => (
@@ -126,7 +127,7 @@ const HomeCard = () => {
         </div>
       </div>
 
-      <div className={styles.Kayaks}>
+      <div className={styles.HomeCardContent}>
         <h1>Featured Kayaks for Rent</h1>
         <div className={styles.cardWrapping}>
           {kayaksArray.map((objKaya) => (
@@ -140,7 +141,7 @@ const HomeCard = () => {
         </div>
       </div>
 
-      <div>
+      <div className={styles.HomeCardContent}>
         <h1> Featured Golf Cart for rent</h1>
         <div className={styles.cardWrapping}>
           {cardsVariety.map((obj) => (
