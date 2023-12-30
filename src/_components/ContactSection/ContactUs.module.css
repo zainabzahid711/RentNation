@@ -1,0 +1,65 @@
+.contactHeading {
+  text-align: center;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.contactPara {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.UsHeading {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.UsPara {
+  margin-top: 20px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+
+.contactWrapping {
+  margin-top: 32px;
+  display: flex;
+  gap: 19px;
+  padding: 30px;
+}
+
+.ContactUsNow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px;
+  width: 85%;
+}
+
+.ContactUs {
+  border-right: 2px solid #FFAE1B99;
+  padding-right: 80px;
+}
+
+.ContactAdress {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactVia {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.ContactIcon {
+  width: 24px;
+  margin-right: 15px;
+}
