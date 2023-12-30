@@ -13,8 +13,8 @@ const HomePage = () => {
       <NavBar />
       <HeroSection />
       <HomeCard />
-      <ContactUs />
-      <Footer />
+      {/* <ContactUs /> */}
+      {/* <Footer /> */}
     </div>
   );
 };
