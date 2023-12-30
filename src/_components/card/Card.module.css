@@ -74,3 +74,54 @@
   display: flex;
   justify-content: space-between;
 }
+
+.CardsPictures {
+  opacity: .6;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+.ContactCard {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.contentCard {
+  margin-top: 90px;
+  position: absolute;
+  z-index: 1;
+  padding: 20px;
+}
+
+.ContactInline {
+  margin-top: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 370px;
+  max-width: 100%;
+  /* width: 100%; */
+}
+
+.placeContact {
+  display: flex;
+  align-items: center;
+}
+
+.titleCard {
+  font-size: 32px;
+  font-weight: 600s;
+}
+
+.contactPlace {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.listings {
+  font-size: 16px;
+  font-weight: 400;
+}

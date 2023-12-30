@@ -55,4 +55,27 @@ const Card = ({ img, price, location, heading }) => {
   );
 };
 
+export const ContactCard = ({ image, title, place, listings }) => {
+  return (
+    <div className={styles.ContactCard}>
+      <img className={styles.CardsPictures} src={image} alt="bikesImage" />
+      <div className={styles.contentCard}>
+        <h4 className={styles.titleCard}>{title}</h4>
+        <div className={styles.ContactInline}>
+          <div className={styles.placeContact}>
+            <img
+              className={styles.icon}
+              src={locationIcon}
+              alt="locationIcon"
+            />
+            <span className={styles.contactPlace}> {place} </span>
+          </div>
+          <span className={styles.listings}>{listings}</span>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+// export default ContactCard;
 export default Card;
