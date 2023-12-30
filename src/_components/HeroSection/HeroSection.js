@@ -58,9 +58,9 @@ const HeroSection = () => {
         </h1>
         <p className={styles.heroPara}>
           Welcome to RentNation, where your next beach adventure begins! Whether
-          you're craving a relaxing day by the shore or an exciting water
-          exploration, we've got you covered. With our convenient rental
-          services, you can choose between multiple fantastic options
+          you're craving a relaxing day by the shore <br></br> or an exciting
+          water exploration, we've got you covered. With our convenient rental
+          services, you can choose between <br></br> multiple fantastic options
         </p>
       </div>
       <div className={styles.inputContainer}>

@@ -1,42 +1,34 @@
 .heroContainer {
-  /* position: absolute; */
-  /* position: relative; */
-  min-height: 100%;
-  height: 2rem;
+  height: auto;
 }
 
 
 .heroheading {
-  position: absolute;
-  top: 32%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   color: #fff;
-  font-size: 32px;
+  font-size: 42px;
   font-weight: 700;
-  line-height: 72px;
 }
 
 .herosubHeading {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   color: #fff;
-  font-size: 35px;
+  font-size: 42px;
   font-weight: 700;
-  line-height: 72px;
 }
 
 .heroPara {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 24px;
 }
@@ -44,22 +36,22 @@
 
 .BackgroundImg {
   width: 100%;
-  height: 100%;
+  height: 420px;
   position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
   opacity: 0.6;
-  background-color: rgba(0, 0, 0, .95);
 }
 
 
 .inputContainer {
+  margin-top: 20px;
   display: flex;
-  position: absolute;
-  top: 70%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
 }
 
 .locationIcon {
@@ -119,4 +111,73 @@
   /* background-color: #007bff; */
   /* Add a background color on hover/focus for better visibility */
   color: white;
+}
+
+@media(max-width: 992px) {
+  .heroheading {
+    font-size: 35px;
+  }
+
+  .herosubHeading {
+    font-size: 35px;
+  }
+
+  .heroPara {
+    font-size: 14px;
+  }
+
+  .heroInput {
+    padding: 16px 180px 15px 26px;
+  }
+
+}
+
+@media(max-width: 768px) {
+  .heroheading {
+    font-size: 28px;
+  }
+
+  .herosubHeading {
+    font-size: 28px;
+  }
+
+  .heroPara {
+    font-size: 10px;
+  }
+
+  .heroInput {
+    padding: 16px 100px 15px 26px;
+  }
+}
+
+@media(max-width: 500px) {
+  .heroheading {
+    font-size: 23px;
+  }
+
+  .herosubHeading {
+    font-size: 23px;
+  }
+
+  .heroPara {
+    font-size: 8px;
+  }
+
+  .inputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .locationDrop {
+    margin-bottom: 10px;
+  }
+
+  .locationSelect {
+    width: 100%;
+  }
+
+  .heroInput {
+    margin-bottom: 10px;
+  }
 }
