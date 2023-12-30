@@ -29,7 +29,8 @@
 
 .contactWrapping {
   margin-top: 32px;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 19px;
   padding: 30px;
 }
@@ -62,4 +63,89 @@
 .ContactIcon {
   width: 24px;
   margin-right: 15px;
+}
+
+
+
+@media (max-width:1440px) {
+
+  /* .HomeCardContent {
+    padding: 25px 60px 72px;
+  } */
+
+  .contactWrapping {
+    display: grid;
+    gap: 20px;
+  }
+}
+
+@media (max-width:1200px) {
+
+
+  .ContactUsNow {
+    padding: 30px;
+    width: 90%;
+  }
+
+  .contactWrapping {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+}
+
+@media (max-width:992px) {
+
+  .ContactUsNow {
+    padding: 20px;
+    width: 90%;
+  }
+
+  .UsPara {
+    font-size: 14px;
+  }
+
+  .contactWrapping {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 0px;
+  }
+}
+
+@media (max-width:768px) {
+
+  .ContactUsNow {
+    padding: 35px;
+    width: 100%;
+  }
+
+  .UsPara {
+    font-size: 12px;
+  }
+
+  .contactWrapping {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 120px;
+  }
+}
+
+@media (max-width:500px) {
+
+  .ContactUs {
+    margin-bottom: 20px;
+    border-right: none;
+    border-bottom: 2px solid #FFAE1B99;
+    padding: 20px;
+    padding-bottom: 30px;
+  }
+
+
+  .ContactUsNow {
+    flex-direction: column;
+    padding: 35px;
+    width: 100%;
+  }
+
+  .contactWrapping {
+    padding: 0px;
+    /* gap: 50px 0px; */
+  }
 }
