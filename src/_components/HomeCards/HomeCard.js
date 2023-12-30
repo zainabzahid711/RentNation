@@ -146,7 +146,6 @@ const HomeCard = () => {
         <div className={styles.cardWrapping}>
           {cardsVariety.map((obj) => (
             <Card
-              className={styles.CardinHome}
               img={obj.img}
               price={obj.price}
               location={obj.location}
