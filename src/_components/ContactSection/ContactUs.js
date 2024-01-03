@@ -38,8 +38,7 @@ const ContactUs = () => {
       </h1>
       <p className={styles.contactPara}>
         Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-        cubilia curae; Proin sodales ultrices nulla blandit volutpat Vestib ulum{" "}
-        <br></br>
+        cubilia curae; Proin sodales ultrices nulla blandit volutpat Vestib ulum
         ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
         curae.
       </p>
