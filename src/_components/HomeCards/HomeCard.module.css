@@ -20,10 +20,11 @@
 @media (max-width:1440px) {
 
   .HomeCardContent {
-    padding: 25px 60px 72px;
+    /* padding: 25px 60px 72px; */
   }
 
   .cardWrapping {
+    padding-left: 80px;
     display: grid;
     gap: 20px;
   }
