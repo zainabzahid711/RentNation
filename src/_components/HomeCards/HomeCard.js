@@ -11,7 +11,8 @@ import surfingOnOcean from "../../_assets/png/surfingOnOcean.png";
 import dolphinOcean from "../../_assets/png/dolphinsOnOcean.png";
 import boating from "../../_assets/png/boatingg.png";
 import pedalBoat from "../../_assets/png/pedalBoating.png";
-// import backgroud from "../../_assets/png/bg-img";
+import background from "../../_assets/png/rightHalfcircle.png";
+import backgroundLeft from "../../_assets/png/bg-img.png";
 import styles from "./HomeCard.module.css";
 import Card from "../card/Card";
 
@@ -99,7 +100,16 @@ const kayaksArray = [
 const HomeCard = () => {
   return (
     <div className={styles.HomeCard}>
-      {/* <img className={styles.BgLeft} src={backgroud} alt="leftHalfcircle" /> */}
+      <img
+        className={styles.bgCircleImg}
+        src={background}
+        alt="bg Circle img"
+      />
+      <img
+        className={styles.bgCircleLeft}
+        src={backgroundLeft}
+        alt="bg Circle img"
+      />
       <div className={styles.HomeCardContent}>
         <h1> Featured Golf Cart for rent</h1>
         <div className={styles.cardWrapping}>
@@ -146,12 +156,12 @@ const HomeCard = () => {
       <div className={styles.HomeCardContent}>
         <h1> Featured Golf Cart for rent</h1>
         <div className={styles.cardWrapping}>
-          {cardsVariety.map((obj) => (
+          {cardsVariety.map((item) => (
             <Card
-              img={obj.img}
-              price={obj.price}
-              location={obj.location}
-              heading={obj.heading}
+              img={item.img}
+              price={item.price}
+              location={item.location}
+              heading={item.heading}
             />
           ))}
         </div>

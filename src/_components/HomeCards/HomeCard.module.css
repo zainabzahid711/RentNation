@@ -4,6 +4,20 @@
   margin-bottom: 30px;
 }
 
+.bgCircleImg {
+  z-index: -1;
+  position: absolute;
+  right: 0;
+  top: 210%;
+}
+
+.bgCircleLeft {
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 350%;
+}
+
 .HomeCardContent {
   padding: 25px 80px 72px;
 }
@@ -12,7 +26,6 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin-top: 24px;
-  display: flex;
   gap: 20px;
 }
 
@@ -20,11 +33,11 @@
 @media (max-width:1440px) {
 
   .HomeCardContent {
-    /* padding: 25px 60px 72px; */
+    padding: 25px 60px 72px;
   }
 
   .cardWrapping {
-    padding-left: 80px;
+    /* padding-left: 80px; */
     display: grid;
     gap: 20px;
   }
