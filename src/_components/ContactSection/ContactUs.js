@@ -1,64 +1,21 @@
 import React from "react";
 import styles from "./ContactUs.module.css";
-import { ContactCard } from "../card/Card";
-import Contactbikes from "../../_assets/png/bikesContactUs.png";
-import SurfingBoats from "../../_assets/png/surfingBoatsKayaks.png";
-import ContactBeech from "../../_assets/png/beechContactUs.png";
 import locationIcon from "../../_assets/svg/location.svg";
 import phoneIcon from "../../_assets/svg/phone.svg";
 import mailIcon from "../../_assets/svg/mail.svg";
 import Button from "../button/Button";
-
-const contactArry = [
-  {
-    image: Contactbikes,
-    title: "Golf Cart",
-    place: "Washington",
-    listings: "250+ listings",
-  },
-  {
-    image: ContactBeech,
-    title: "Beache Supplies",
-    place: "Washington",
-    listings: "250+ listings",
-  },
-  {
-    image: SurfingBoats,
-    title: "Kayaks",
-    place: "Washington",
-    listings: "250+ listings",
-  },
-];
+import PackageListing from "../packageListings/PackageListing";
 
 const ContactUs = () => {
   return (
     <div>
-      <h1 className={styles.contactHeading}>
-        Get Cars, Beaches and Kayaks on Rent
-      </h1>
-      <p className={styles.contactPara}>
-        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-        cubilia curae; Proin sodales ultrices nulla blandit volutpat Vestib ulum
-        ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-        curae.
-      </p>
-      <div className={styles.contactWrapping}>
-        {contactArry.map((obj1) => (
-          <ContactCard
-            image={obj1.image}
-            title={obj1.title}
-            place={obj1.place}
-            listings={obj1.listings}
-          />
-        ))}
-      </div>
-
+      <PackageListing />
       <div className={styles.ContactUsNow}>
         <div className={styles.ContactUs}>
           <h1 className={styles.UsHeading}>Contact Us</h1>
           <p className={styles.UsPara}>
-            Contact us now if you have any question. Lorem ipsum <br></br>
-            dolor sit adipiscing elit.
+            Contact us now if you have any question. Lorem ipsum dolor sit
+            adipiscing elit.
           </p>
           <Button
             title="Contact Now"

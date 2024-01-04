@@ -1,20 +1,3 @@
-.contactHeading {
-  text-align: center;
-  color: #fff;
-  font-size: 32px;
-  font-weight: 700;
-}
-
-.contactPara {
-  text-align: center;
-  color: #fff;
-  font-size: 20px;
-  font-weight: 400;
-  width: 1280px;
-  padding-left: 20px;
-  /* padding-right: 8px; */
-}
-
 .UsHeading {
   color: #fff;
   font-size: 32px;
@@ -27,28 +10,20 @@
   font-size: 20px;
   font-weight: 400;
   margin-bottom: 20px;
-}
-
-
-.contactWrapping {
-  margin-top: 32px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 19px;
-  padding: 30px;
+  width: 510px;
 }
 
 .ContactUsNow {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 80px;
+  padding: 55px 72px 55px;
   width: 85%;
 }
 
 .ContactUs {
   border-right: 2px solid #FFAE1B99;
-  padding-right: 80px;
+  padding: 0px 80px 0px 80px;
 }
 
 .ContactAdress {
