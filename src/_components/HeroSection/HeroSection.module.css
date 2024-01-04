@@ -24,13 +24,12 @@
 }
 
 .heroPara {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin: 0 auto;
   text-align: center;
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
+  width: 956px;
 }
 
 
@@ -52,64 +51,6 @@
   justify-content: center;
   text-align: center;
   display: flex;
-}
-
-.locationIcon {
-  opacity: .6;
-}
-
-.locationSelect {
-  width: 90px;
-  background-color: transparent;
-  font-size: 14px;
-  border: none;
-  color: #fff;
-}
-
-.locationSelect option {
-  color: #000;
-}
-
-.locationDrop {
-  border: none;
-  display: flex;
-  align-items: center;
-  padding: 13px 16px 13px 13px;
-  background-color: rgba(18, 18, 18, 0.48);
-  border-radius: 4px;
-  /* background: transparent; */
-}
-
-.heroInput {
-  display: flex;
-  align-items: center;
-  background-color: rgba(18, 18, 18, 0.20);
-  border: none;
-  padding: 16px 250px 15px 26px;
-  backdrop-filter: blur(4px);
-}
-
-.heroInput::placeholder {
-  padding: 16px 250px 15px 0px;
-  color: #C8C8C8;
-}
-
-/* 
-.customDropdown {
-  position: relative;
-} */
-
-.locationSelect .item {
-  color: white;
-  background-color: wheat;
-  /* Set white text color for dropdown items */
-}
-
-/* Additional styles for better visibility */
-.locationSelect a:hover,
-.locationSelect a:focus {
-  outline: none;
-  color: white;
 }
 
 @media(max-width: 992px) {
