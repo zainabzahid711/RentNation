@@ -1,7 +1,7 @@
 import React from "react";
-import NavBar from "../../_components/navbar/NavBar";
 import CustomInput from "../../_components/customInput/CustomInput";
 import Footer from "../../_components/footer/Footer";
+import Header from "../../_components/navHeader/Header";
 
 function Login() {
   const fields = [
@@ -20,7 +20,7 @@ function Login() {
   ];
   return (
     <>
-      <NavBar />
+      <Header />
       <CustomInput mainText={"Login"} btnText={"Signin"} fields={fields} />
       <Footer />
     </>

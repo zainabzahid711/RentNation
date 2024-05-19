@@ -1,0 +1,27 @@
+.content {
+  margin: 10px auto 182px;
+  padding-top: 180px;
+  color: var(--white-color);
+  width: 60%;
+}
+
+.profileHeading {
+  font-size: 32.862px;
+  font-weight: 500;
+  line-height: 49.292px;
+  letter-spacing: -0.685px;
+  margin-bottom: 40px;
+}
+
+.detailcontent {
+  font-size: 16px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0.2px;
+}
+
+.detailcontent > *:not(:last-child) {
+  margin-bottom: 72px;
+}

@@ -6,16 +6,22 @@ import Contact from "./page/contactPage/Contact";
 import SignUp from "./page/SignUpPage/SignUp";
 import Login from "./page/LoginPage/Login";
 
+import { Routes, Route } from "react-router-dom";
+import About from "./page/aboutUsPage/About";
+
 function App() {
   return (
     <div>
-      {/* <HomePage /> */}
-      {/* <FeaturePage /> */}
-      {/* <OrderPage /> */}
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/FeaturePage" element={<FeaturePage />} />
+        <Route path="/OrderPage" element={<OrderPage />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
 
-      {/* <Contact /> */}
       {/* <SignUp /> */}
-      <Login />
+      {/* <Login /> */}
     </div>
   );
 }

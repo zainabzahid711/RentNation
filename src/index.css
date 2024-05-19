@@ -9,6 +9,13 @@ body {
   background-color: black;
   color: #fff;
 }
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 80px 25px;
+  color: white;
+}
 
 button,
 a {
@@ -22,9 +29,8 @@ ul li {
 li {
   padding-bottom: 30px;
   font-size: 16px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-
 
 @media (max-width: 500px) {
   ul {
