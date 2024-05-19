@@ -14,7 +14,7 @@ const NavBar = () => {
         <a className={styles.menuItem}>LISTINGS</a>
         <a className={styles.menuItem}>ABOUT</a>
         <a className={styles.menuItem}>CONTACT</a>
-        {/* {state !== "login" && <Button title="LOGIN / SIGN UP" />} */}
+        {/* {showState !== "login" && <Button title="LOGIN / SIGN UP" />} */}
         {showState && (
           <Button onClick={() => setShowState(false)} title="LOGIN / SIGN UP" />
         )}

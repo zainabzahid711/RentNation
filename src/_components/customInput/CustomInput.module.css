@@ -1,0 +1,105 @@
+.contactFormHeading {
+  color: #fff;
+  font-size: 32.862px;
+  font-weight: 500;
+  line-height: 49.292px;
+  letter-spacing: -0.685px;
+  margin-bottom: 50px;
+}
+
+.homeContact {
+  text-decoration: none;
+  color: #000;
+}
+.contactFormMain {
+  margin: 0 auto;
+  width: 410px;
+}
+
+.contactFooter {
+  position: relative;
+}
+
+.contactBgRight {
+  position: absolute;
+  top: -250px;
+  left: 0px;
+  z-index: -1;
+}
+
+@media (max-width: 576px) {
+  .contactFormHeading {
+    font-size: 25.862px;
+    margin-bottom: 35px;
+  }
+
+  .contactFormMain {
+    width: 280px;
+  }
+
+  .contactFormBtn {
+    margin: 80px 0px;
+  }
+}
+
+.inputDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.lable {
+  color: var(--white-color);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+
+.input {
+  background: #2b2b2b;
+  border: 1px solid #d0d5dd;
+  border-radius: 8px;
+  color: #667085;
+  padding: 10px 18px;
+  font-size: 14px;
+  outline: none;
+}
+
+/* Hide the spinners */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  display: none;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.input::placeholder {
+  color: var(--text-grey3-color);
+  font-size: 16px;
+}
+
+.submit-contact {
+  width: 90% !important;
+  border-radius: 8px !important;
+  text-align: center;
+  margin: 174px auto;
+}
+
+.contactbg {
+  top: 700px !important;
+}
+
+.loginBtn {
+  background-color: #ffae1b;
+  width: 80%;
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: none;
+  text-align: center;
+  margin: 90px 50px 170px;
+}
