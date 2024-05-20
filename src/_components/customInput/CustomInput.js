@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./CustomInput.module.css";
 
-function CustomInput({ mainText, btnText, fields }) {
+function CustomInput({ mainText, btnText, fields, onClick }) {
   return (
     <>
       <div className={style.contactFormMain}>
@@ -29,10 +29,8 @@ function CustomInput({ mainText, btnText, fields }) {
             </div>
           ))}
 
-          <button className={style.loginBtn} type="submit">
-            <a className={style.homeContact} href="#">
-              {btnText}
-            </a>
+          <button onClick={onClick} className={style.loginBtn} type="submit">
+            <a className={style.homeContact}>{btnText}</a>
           </button>
         </form>
       </div>

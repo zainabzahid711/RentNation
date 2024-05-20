@@ -5,7 +5,13 @@ import Button from "../button/Button";
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
-  const [showState, setShowState] = useState(true);
+  // const [isLoggedIn, setIsLoggedIn] = useState(false);
+  // const history = useNavigate();
+
+  // const handleLogout = () => {
+  //   setIsLoggedIn(false);
+  //   history.push("/signup");
+  // };
 
   return (
     <div className={styles.navBar}>
@@ -17,7 +23,6 @@ const NavBar = () => {
         </Link>
         <div className={`${styles.dropdown} ${styles.menuItem}`}>
           LISTINGS
-          {/* {showDropdown && ( */}
           <div className={styles.dropdownContent}>
             <Link className={styles.dropdownItem} to="/featurePage">
               FeaturePage
@@ -26,7 +31,6 @@ const NavBar = () => {
               OrderPage
             </Link>
           </div>
-          {/* )} */}
         </div>
         <Link to="/about" className={styles.menuItem}>
           ABOUT
@@ -35,9 +39,9 @@ const NavBar = () => {
           CONTACT
         </Link>
         {/* {showState !== "login" && <Button title="LOGIN / SIGN UP" />} */}
-        {showState && (
-          <Button onClick={() => setShowState(false)} title="LOGIN / SIGN UP" />
-        )}
+        <Link to="/signup">
+          <Button title="LOGOUT" />
+        </Link>
       </div>
     </div>
   );

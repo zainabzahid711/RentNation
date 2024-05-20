@@ -1,13 +1,16 @@
 import React from "react";
 import logoImage from "../../_assets/svg/logo.svg";
 import Button from "../button/Button";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <>
       <div class="row">
         <img src={logoImage} alt="company-logo" />
-        <Button title={"Login"} />
+        <Link to="/login">
+          <Button title={"Login"} />
+        </Link>
       </div>
     </>
   );
