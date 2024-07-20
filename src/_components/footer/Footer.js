@@ -19,49 +19,27 @@ const Footer = () => {
           <div className={styles.footerList}>
             <h4 className={styles.listHeading}>Quick Links</h4>
             <ul>
-              <li>
-                <a className={styles.listItem}> Cars for rent </a>
-              </li>
-              <li>
-                <a className={styles.listItem}> Beach for rent </a>
-              </li>
-              <li>
-                <a className={styles.listItem}> Kayaks for rent </a>
-              </li>
+              <li className={styles.listItem}>Cars for rent</li>
+              <li className={styles.listItem}>Beach for rent </li>
+              <li className={styles.listItem}>Kayaks for rent </li>
             </ul>
           </div>
           <div className={styles.footerListM}>
             <h4 className={styles.listHeading}>Menehariya</h4>
             <ul className={styles.methernal}>
-              <li>
-                <a className={styles.listItem}> Contact Us </a>
-              </li>
-              <li>
-                <a className={styles.listItem}>About Us </a>
-              </li>
-              <li>
-                <a className={styles.listItem}> Terms & Condition </a>
-              </li>
-              <li>
-                <a className={styles.listItem}> Privacy Policy </a>
-              </li>
+              <li className={styles.listItem}> Contact Us </li>
+              <li className={styles.listItem}>About Us </li>
+              <li className={styles.listItem}> Terms & Condition </li>
+              <li className={styles.listItem}>Privacy Policy </li>
             </ul>
           </div>
           <div className={styles.footerListT}>
             <h4 className={styles.listHeading}>Trending search</h4>
             <ul>
-              <li>
-                <a className={styles.listItem}> Lorem Ipsum </a>
-              </li>
-              <li>
-                <a className={styles.listItem}> Lorem Ipsum </a>
-              </li>
-              <li>
-                <a className={styles.listItem}> Lorem Ipsum </a>
-              </li>
-              <li>
-                <a className={styles.listItem}> Lorem Ipsum </a>
-              </li>
+              <li className={styles.listItem}>Lorem Ipsum </li>
+              <li className={styles.listItem}>Lorem Ipsum </li>
+              <li className={styles.listItem}>Lorem Ipsum </li>
+              <li className={styles.listItem}>Lorem Ipsum</li>
             </ul>
           </div>
           <div className={styles.footerList}>

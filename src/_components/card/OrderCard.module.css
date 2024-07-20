@@ -80,8 +80,31 @@
 }
 
 .eyeSpan {
-  color: #6D737A;
+  color: #6d737a;
   font-size: 16px;
   font-weight: 500;
   margin-top: 8px;
+}
+
+@media screen and (max-width: 992px) {
+  .OrderCard {
+    background-color: #121212;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mainimg {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .OrderCard {
+    flex-direction: column;
+  }
+
+  .mainimg {
+    width: 100%;
+  }
 }

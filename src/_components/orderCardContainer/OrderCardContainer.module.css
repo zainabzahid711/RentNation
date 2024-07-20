@@ -1,5 +1,5 @@
 .cardContainer {
-  padding: 80px 190px;
+  padding: 80px;
 }
 
 .cardBooking {
@@ -13,11 +13,17 @@
 }
 
 .clordSpan {
-  color: #FFAE1B;
+  color: #ffae1b;
 }
 
 .cardWrapper {
   padding: 25px 0px 75px;
   display: grid;
   gap: 32px 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .cardContainer {
+    padding: 20px;
+  }
 }

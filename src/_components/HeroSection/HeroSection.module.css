@@ -2,7 +2,6 @@
   height: auto;
 }
 
-
 .heroheading {
   display: flex;
   align-items: center;
@@ -29,9 +28,9 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
-  width: 956px;
+  width: 840px;
+  max-width: 100%;
 }
-
 
 .BackgroundImg {
   width: 100%;
@@ -43,7 +42,6 @@
   opacity: 0.6;
 }
 
-
 .inputContainer {
   margin-top: 20px;
   display: flex;
@@ -53,7 +51,7 @@
   display: flex;
 }
 
-@media(max-width: 992px) {
+@media (max-width: 992px) {
   .heroheading {
     font-size: 35px;
   }
@@ -64,15 +62,15 @@
 
   .heroPara {
     font-size: 14px;
+    width: 750px;
   }
 
   .heroInput {
     padding: 16px 180px 15px 26px;
   }
-
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   .heroheading {
     font-size: 28px;
   }
@@ -82,7 +80,8 @@
   }
 
   .heroPara {
-    font-size: 10px;
+    font-size: 12px;
+    width: 540px;
   }
 
   .heroInput {
@@ -90,7 +89,7 @@
   }
 }
 
-@media(max-width: 500px) {
+@media (max-width: 500px) {
   .heroheading {
     font-size: 23px;
   }
@@ -100,13 +99,15 @@
   }
 
   .heroPara {
+    width: 390px;
+    max-width: 100%;
     font-size: 8px;
+    line-height: 15px;
   }
 
   .inputContainer {
     display: flex;
     flex-direction: column;
-    align-items: stretch;
   }
 
   .locationDrop {

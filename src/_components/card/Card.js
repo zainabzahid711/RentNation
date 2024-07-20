@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./Card.module.css";
-import mainImage from "../../_assets/png/bikes.png";
 import heartLogo from "../../_assets/svg/heart icon.svg";
 import Button from "../button/Button";
 import locationIcon from "../../_assets/svg/location.svg";

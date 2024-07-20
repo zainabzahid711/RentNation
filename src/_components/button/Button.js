@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./Button.module.css";
-import searchIcon from "../../_assets/svg/search-Icon.svg";
 
 // const Button = ({
 //   title,

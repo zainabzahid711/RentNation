@@ -30,7 +30,7 @@ function CustomInput({ mainText, btnText, fields, onClick }) {
           ))}
 
           <button onClick={onClick} className={style.loginBtn} type="submit">
-            <a className={style.homeContact}>{btnText}</a>
+            {btnText}
           </button>
         </form>
       </div>

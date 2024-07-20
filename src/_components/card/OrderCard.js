@@ -36,7 +36,7 @@ const OrderCard = ({ img, heading, people, limits, location, views }) => {
           </div>
           <div className={styles.locationDiv}>
             <div className={styles.locationSub}>
-              <img className={styles.icon} src={LocationIcon}></img>
+              <img className={styles.icon} src={LocationIcon} alt=""></img>
               <span>{location}</span>
             </div>
             <span className={styles.spanText}>
@@ -52,9 +52,9 @@ const OrderCard = ({ img, heading, people, limits, location, views }) => {
               border="1px solid #FFAE1B"
               borderRadius="10px"
             />
-            <img className={styles.icon} src={ShareIcon}></img>
+            <img className={styles.icon} src={ShareIcon} alt=""></img>
             <div className={styles.eyeDiv}>
-              <img className={styles.icon} src={EyeIcon}></img>
+              <img className={styles.icon} src={EyeIcon} alt=""></img>
               <span className={styles.eyeSpan}>{views}</span>
             </div>
           </div>

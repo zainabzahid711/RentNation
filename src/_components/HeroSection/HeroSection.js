@@ -68,7 +68,7 @@ const HeroSection = () => {
         <Button
           title="Search"
           background="#FFAE1B"
-          padding="15px 23px 15px 24px"
+          padding="15px 20px 15px 24px"
           color="#121212"
           icon={searchIcon}
         />

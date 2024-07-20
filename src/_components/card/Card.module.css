@@ -64,7 +64,7 @@
 }
 
 .dollerDiv {
-  color: #FFAE1B;
+  color: #ffae1b;
   font-size: 16px;
   font-weight: 700;
 }
@@ -76,7 +76,7 @@
 }
 
 .CardsPictures {
-  opacity: .6;
+  opacity: 0.6;
 }
 
 .icon {
@@ -124,4 +124,11 @@
 .listings {
   font-size: 16px;
   font-weight: 400;
+}
+
+@media screen and(max-width: 1200px) {
+  .ContactCard {
+    width: 414px;
+    max-width: 100%;
+  }
 }

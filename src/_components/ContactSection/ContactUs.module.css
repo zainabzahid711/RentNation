@@ -11,6 +11,7 @@
   font-weight: 400;
   margin-bottom: 20px;
   width: 510px;
+  max-width: 100%;
 }
 
 .ContactUsNow {
@@ -22,7 +23,7 @@
 }
 
 .ContactUs {
-  border-right: 2px solid #FFAE1B99;
+  border-right: 2px solid #ffae1b99;
   padding: 0px 80px 0px 80px;
 }
 
@@ -43,10 +44,7 @@
   margin-right: 15px;
 }
 
-
-
-@media (max-width:1440px) {
-
+@media (max-width: 1440px) {
   /* .HomeCardContent {
     padding: 25px 60px 72px;
   } */
@@ -57,9 +55,7 @@
   }
 }
 
-@media (max-width:1200px) {
-
-
+@media (max-width: 1200px) {
   .ContactUsNow {
     padding: 30px;
     width: 90%;
@@ -71,8 +67,7 @@
   }
 }
 
-@media (max-width:992px) {
-
+@media (max-width: 992px) {
   .ContactUsNow {
     padding: 20px;
     width: 90%;
@@ -80,6 +75,7 @@
 
   .UsPara {
     font-size: 14px;
+    width: 200px;
   }
 
   .contactWrapping {
@@ -88,8 +84,7 @@
   }
 }
 
-@media (max-width:768px) {
-
+@media (max-width: 768px) {
   .ContactUsNow {
     padding: 35px;
     width: 100%;
@@ -105,16 +100,14 @@
   }
 }
 
-@media (max-width:500px) {
-
+@media (max-width: 500px) {
   .ContactUs {
     margin-bottom: 20px;
     border-right: none;
-    border-bottom: 2px solid #FFAE1B99;
+    border-bottom: 2px solid #ffae1b99;
     padding: 20px;
     padding-bottom: 30px;
   }
-
 
   .ContactUsNow {
     flex-direction: column;

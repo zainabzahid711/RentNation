@@ -6,13 +6,15 @@
 }
 
 .ListingPara {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   color: #fff;
   font-size: 20px;
   font-weight: 400;
   width: 1280px;
-  padding-left: 20px;
-  /* padding-right: 8px; */
+  max-width: 100%;
 }
 
 .PackageListing {
@@ -25,4 +27,30 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
   padding: 15px;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.ListingWrapping::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .ListingHeading {
+    font-size: 29px;
+  }
+  .ListingPara {
+    font-size: 16px;
+    width: 1000px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .ListingHeading {
+    font-size: 20px;
+  }
+  .ListingPara {
+    font-size: 14px;
+    width: 400px;
+  }
 }
